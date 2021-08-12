@@ -6,11 +6,11 @@
         "Telegraph",
         "Uploader",
         "Telegram Bot",
-        "JE Bots"
+        "TOBOT UPDATE"
     ],
-    "website": "https://infinityje.com",
-    "repository": "https://github.com/ImJanindu/JETelegraphBot",
-    "success_url": "https://t.me/Infinity_BOTs",
+    "website": "https://t.me/tobot_update",
+    "repository": "https://github.com/rungrams/Telegraph-tobot",
+    "success_url": "https://t.me/tobot_update",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
