@@ -50,16 +50,21 @@ async def help(client, message):
 
 Just send a photo or video less than 5mb file size, I'll upload it to telegraph.
 
-~ @Infinity_BOTs</b>""",
+~ @TOBOT_UPDATE</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Back", callback_data="start"),
+                                            "Back🔙", callback_data="start"),
                                         InlineKeyboardButton(
-                                            "About", callback_data="about"),
+                                            "About📝", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/JETelegraphBot")
+                                            "CHANNEL📢", url="https://t.me/tobot_update")
+                                        Inlinekeyboardbutton(
+                                            "GROUP👥", url="https://t.me/tobotupdate")
+                                  ],[
+                                        Inlinekeyboardbutton(
+                                            "🔔SUBSCRIBE🔔", url="https://youtube.com/channel/UC1SeMwgyNDi_n4T8cbgVjKQ")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -78,11 +83,15 @@ async def about(client, message):
 
 <b> GROUP👥:</b> <a href="https://t.me/tobotupdate">JOIN</a>
 
+<b> REPO🤖:</b> <a href="https://t.me/bot_repo">CODE</a>
+
+<b> 🔔SUBSCRIBE🔔:</b> <a href="https://youtube.com/channel/UC1SeMwgyNDi_n4T8cbgVjKQ">SUBSCRIBE</a>
+
 <b>~ BY @tobot_update</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Back", callback_data="help"),
+                                            "Back🔙", callback_data="help"),
                                         InlineKeyboardButton(
                                             "CHANNEL📢", url="https://t.me/tobot_update")
                                     ]]
