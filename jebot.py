@@ -25,12 +25,17 @@ Hit help button to find out more about how to use me</b>""",
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Help", callback_data="help"),
+                                            "CHANNEL📢", url="https://t.me/tobot_update"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
+                                            "GROUP👥", url="https://t.me/tobotupdate")
                                     ],[
                                       InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/JETelegraphBot")
+                                            "DEVLOAPER👩‍💻", url="https://t.me/rungram")
+                                      InlineKeyboardButton(
+                                            "REPO🤖", url="https://t.me/bot_repo")
+                                    ],[
+                                      Inlinekeyboardbutton(
+                                            "🔔SUBSCRIBE🔔", url="https://youtube.com/channel/UC1SeMwgyNDi_n4T8cbgVjKQ")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
